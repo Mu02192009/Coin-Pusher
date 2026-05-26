@@ -6,7 +6,7 @@ using UnityEngine;
 public class CoinManager : MonoBehaviour
 {
     [SerializeField] private TextMeshProUGUI coinText;
-    public int Coin { get; private set; } = 50;
+    [SerializeField] int Coin = 50;
     // Start is called before the first frame update
     void Start()
     {

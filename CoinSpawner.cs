@@ -6,7 +6,6 @@ public class CoinSpawner : MonoBehaviour
 {
     [SerializeField] GameObject coinPrefab;
     [SerializeField] CoinManager coinManager;
-
     [SerializeField] int startCoinCount = 30;
 
     void Start()
